@@ -5,6 +5,7 @@ export interface DropdownToggleProps extends React.HTMLAttributes<HTMLElement> {
   [key: string]: any;
   caret?: boolean;
   color?: string;
+  className?: string,
   cssModule?: CSSModule;
   disabled?: boolean;
   outline?: boolean;
